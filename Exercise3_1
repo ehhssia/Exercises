@@ -1,0 +1,11 @@
+public class Ex1 {
+
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in);
+		String string=sc.next();
+		int a;
+		System.out.print("Enter index you want to print");
+		a=sc.nextInt();
+		System.out.print(string.charAt(i));
+	}
+}
