@@ -1,0 +1,15 @@
+public class Ex2_5 {
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in);
+		int id=sc.nextInt();
+		String name=sc.next();
+		Double sal=sc.nextDouble();
+		String add=sc.next();
+		String gender=sc.next();
+		String email=sc.next();
+		
+		System.out.println("Id ="+ id,"Name="+ name,"Salary=" + sal "
+    Address=" + add,"Gender=" + gender, "Email= " + email);
+	}
+
+}
