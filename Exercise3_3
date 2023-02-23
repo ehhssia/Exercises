@@ -1,0 +1,25 @@
+
+public class Ex3 {
+	
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in).useDelimiter("\n");
+		String string=sc.next();
+		String[] arr=string.split(" ");
+		System.out.print("Enter character you want to search");
+		String s=sc.next();
+		int flag=0;
+		for(String a:arr) {
+			if(a.equals(s)) {
+				flag=1;
+				break;
+			}
+		}
+		if(flag==1) {
+			System.out.print("Present");
+		}else {
+			System.out.print("Not present");
+		}
+		
+	}
+
+}
