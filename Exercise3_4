@@ -1,0 +1,13 @@
+public class Ex4 {
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in);
+		String string=sc.next();
+		String whattocheck=sc.next();
+		int lengthS=string.length();
+		int length=whattocheck.length();
+		if(string.substring(lengthS-length, lengthS).equals(whattocheck))
+			System.out.print("Present");
+		else
+			System.out.print("Not present");
+			
+	}
